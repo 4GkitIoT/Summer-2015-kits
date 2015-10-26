@@ -1,0 +1,45 @@
+Lua - version 5.3
+Copyright © 1994-2015 Lua.org, PUC-Rio
+
+Lua is distributed under the terms and conditions of the MIT license (http://opensource.org/licenses/MIT).
+You may download the source code on the following website: http://www.lua.org/
+
+//-----//
+
+LibNoPoll - version 0.3.1.b217
+Copyright (C) 2013 Advanced Software Production Line, S.L.           
+
+LibNoPoll is distributed under the terms and conditions of the LGPL2.1 license (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).
+You may download the source code on the following website: http://www.aspl.es/nopoll/
+
+//-----//
+
+jsonxx - version 0.22a
+Copyright (c) 2010 Hong Jiang
+
+jsonxx is distributed under the terms and conditions of the MIT license (http://opensource.org/licenses/MIT).
+You may download the source code on the following website: https://github.com/hjiang/jsonxx
+
+//-----//
+
+LuaFileSystem - version 1.6.3
+Copyright © 2003-2014 Kepler Project
+
+LuaFileSystem is distributed under the terms and conditions of the MIT license (http://opensource.org/licenses/MIT).
+You may download the source code on the following website: https://keplerproject.github.io/luafilesystem/
+
+//-----//
+
+LuaSocket - version 2.0.2
+Copyright © 2004-2007 Diego Nehab
+ 
+LuaSocket is distributed under the terms and conditions of the MIT license (http://opensource.org/licenses/MIT).
+You may download the source code on the following website: http://w3.impa.br/~diego/software/luasocket/home.html
+
+//-----//
+
+lpty - version 1.1
+Copyright (c) 2010-2013 Gunnar Zötl <gz@tset.de>
+ 
+lpty is distributed under the terms and conditions of the MIT license (http://opensource.org/licenses/MIT).
+You may download the source code on the following website: http://tset.de/lpty/

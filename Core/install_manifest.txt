@@ -1,0 +1,6 @@
+/home/krzysiek/PROJEKTY/STREAMZ/4gkit/Core/modules/modemReconnect.lua
+/home/krzysiek/PROJEKTY/STREAMZ/4gkit/Core/modules/status.lua
+/home/krzysiek/PROJEKTY/STREAMZ/4gkit/Core/modules/streaming.lua
+/home/krzysiek/PROJEKTY/STREAMZ/4gkit/Core/modules/filetransfer.lua
+/home/krzysiek/PROJEKTY/STREAMZ/4gkit/Core/modules/commandline.lua
+/home/krzysiek/PROJEKTY/STREAMZ/4gkit/Core/config.json

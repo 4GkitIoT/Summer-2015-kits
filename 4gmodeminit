@@ -1,0 +1,30 @@
+#!/bin/bash
+# modem init app
+# chkconfig: 345 20 80
+# description: 4g modem initialisation
+# processname: 4gmodem
+### BEGIN INIT INFO
+# Provides: 4gmodem
+# Required-Start:
+# Required-Stop:
+# Should-Start:
+# Should-Stop:
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: Start and stop directadmin
+# Description: 4gmodem
+### END INIT INFO
+
+INIT_PATH="/root/4gkit"
+
+NAME="4gmodeminit"
+DESC="4g starterkit modem"
+case "$1" in
+start)
+  cd $INIT_PATH
+  ./VZ20M.sh&
+;;
+ *)
+        echo "Usage: $0 {start}"
+        exit 1
+esac

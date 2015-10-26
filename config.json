@@ -1,0 +1,11 @@
+{
+	"boardId" : "dummy",
+	"serverHost" : "4gkit.orange.com",
+	"serverPort" : 8090,
+	"directPort" : "8888",
+	"connectionTimeout" : 10000000,
+	"modulesPath" : "./modules/",
+	"modulesExt" : ".lua",
+	"logLevel" : "error",
+	"coloredLogs" : false
+}
