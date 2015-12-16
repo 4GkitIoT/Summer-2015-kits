@@ -9,9 +9,22 @@ Client provide services implemented in lua scripts.
 For now following modules are supported:
 
 1.commadline.lua is bash console
-2.filetransfer.lua get/put files 
+
+2.filetransfer.lua get/put files
+
 3.status.lua status of device (cpu, 4g signal etc.)
+
 4.update.lua save upgrading other scripts
+
 5.modemReconnect.lua watchdog for modem
+
+
+## Install a development environment
+Best way to compile Core is to use docker and docker composer
+
+```
+docker-compose up
+```
+
 ## License
 Apache v2
