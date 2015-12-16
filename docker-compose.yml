@@ -1,0 +1,8 @@
+4gclient:
+    build: .
+    volumes:
+        - ./modules:/root/4gkit/modules
+    ports:
+        - "4222:22" #first value is port on host
+    container_name: 
+        4gclient

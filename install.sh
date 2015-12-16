@@ -72,5 +72,5 @@ update-rc.d 4gstartercore defaults
 update-rc.d 4gmodeminit defaults
 
 echo "#### Starting service"
-/etc/init.d/4gstartercore restart
-/etc/init.d/4gmodeminit restart
+/etc/init.d/4gstartercore restart || :
+/etc/init.d/4gmodeminit restart || :

@@ -1,1 +1,0 @@
-/home/krzysiek/PROJEKTY/STREAMZ/4gkit/Core/CMakeFiles/StreamZCore.dir
