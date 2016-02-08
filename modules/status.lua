@@ -47,6 +47,45 @@ function file_exists(name)
    if f~=nil then io.close(f) return true else return false end
 end
 
+
+function batteryStatus()
+  local batteryData={};
+
+  if(file_exists("/sys/class/power_supply/battery/status"))then
+    batteryData.state=readAll("/sys/class/power_supply/battery/status");
+  end
+
+  if(file_exists("/sys/class/power_supply/battery/capacity"))then
+    batteryData.capacity=readAll("/sys/class/power_supply/battery/capacity");
+  end
+
+  if(file_exists("/sys/class/power_supply/battery/current_now"))then
+    batteryData.batteryCurrent=readAll("/sys/class/power_supply/battery/current_now");
+  end
+  
+  if(file_exists("/sys/class/power_supply/battery/voltage_now"))then
+    batteryData.batteryVoltage=readAll("/sys/class/power_supply/battery/voltage_now");
+  end
+
+  if(file_exists("/sys/class/power_supply/ac/voltage_now"))then
+    batteryData.acVoltage=readAll("/sys/class/power_supply/ac/voltage_now");
+  end
+
+  if(file_exists("/sys/class/power_supply/ac/current_now"))then
+    batteryData.acCurrent=readAll("/sys/class/power_supply/ac/current_now");
+  end
+
+  if(file_exists("/sys/class/power_supply/usb/voltage_now"))then
+    batteryData.usbVoltage=readAll("/sys/class/power_supply/usb/voltage_now");
+  end
+
+  if(file_exists("/sys/class/power_supply/usb/current_now"))then
+    batteryData.uusbCurrent=readAll("/sys/class/power_supply/usb/current_now");
+  end
+
+  return batteryData;
+end
+
 function fourGstatus()
   local devicepath="/dev/ttyACM0"
 
@@ -168,6 +207,7 @@ function onmessage(command)
      retdata.signal=99
    end
 
+   retdata.battery=batteryStatus();
 
    return json.encode(retdata)
 end
